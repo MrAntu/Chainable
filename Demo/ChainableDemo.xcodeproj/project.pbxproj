@@ -31,6 +31,7 @@
 		CE12E59F21E8732800A22061 /* SearchBarVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE12E59D21E8732800A22061 /* SearchBarVC.xib */; };
 		CE12E5B521E88F3200A22061 /* NotificationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE12E5B321E88F3200A22061 /* NotificationVC.swift */; };
 		CE12E5B621E88F3200A22061 /* NotificationVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE12E5B421E88F3200A22061 /* NotificationVC.xib */; };
+		CE518F6722F4433D000502BD /* Then.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE518F6622F4433D000502BD /* Then.swift */; };
 		CE51C85E224B20240011CBD9 /* UISegmentedControl+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE51C840224B20240011CBD9 /* UISegmentedControl+Chainable.swift */; };
 		CE51C85F224B20240011CBD9 /* Foundation+Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE51C841224B20240011CBD9 /* Foundation+Chainable.swift */; };
 		CE51C860224B20240011CBD9 /* UIScrollView+Blocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE51C842224B20240011CBD9 /* UIScrollView+Blocks.swift */; };
@@ -124,6 +125,7 @@
 		CE12E59D21E8732800A22061 /* SearchBarVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchBarVC.xib; sourceTree = "<group>"; };
 		CE12E5B321E88F3200A22061 /* NotificationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationVC.swift; sourceTree = "<group>"; };
 		CE12E5B421E88F3200A22061 /* NotificationVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NotificationVC.xib; sourceTree = "<group>"; };
+		CE518F6622F4433D000502BD /* Then.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Then.swift; sourceTree = "<group>"; };
 		CE51C840224B20240011CBD9 /* UISegmentedControl+Chainable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UISegmentedControl+Chainable.swift"; sourceTree = "<group>"; };
 		CE51C841224B20240011CBD9 /* Foundation+Chainable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Foundation+Chainable.swift"; sourceTree = "<group>"; };
 		CE51C842224B20240011CBD9 /* UIScrollView+Blocks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScrollView+Blocks.swift"; sourceTree = "<group>"; };
@@ -286,6 +288,7 @@
 		CE51C83F224B20240011CBD9 /* Chainable */ = {
 			isa = PBXGroup;
 			children = (
+				CE518F6622F4433D000502BD /* Then.swift */,
 				CE51C8CD224B603B0011CBD9 /* UIColor+Extension.swift */,
 				CE51C8BD224B5FE40011CBD9 /* Array+Safe.swift */,
 				CE51C8BE224B5FE40011CBD9 /* DispatchSourceTimer+DispatchTimer.swift */,
@@ -571,6 +574,7 @@
 				CE51C85F224B20240011CBD9 /* Foundation+Chainable.swift in Sources */,
 				CE51C87A224B20240011CBD9 /* UISlider+Chainable.swift in Sources */,
 				CE51C87B224B20240011CBD9 /* UITextView+Blocks.swift in Sources */,
+				CE518F6722F4433D000502BD /* Then.swift in Sources */,
 				CE51C876224B20240011CBD9 /* UITextView+LengthLimit.swift in Sources */,
 				CE51C86A224B20240011CBD9 /* UISearchBar+Chainable.swift in Sources */,
 				CE51C873224B20240011CBD9 /* UIControl+Chainable.swift in Sources */,
