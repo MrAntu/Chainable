@@ -606,7 +606,7 @@ setRightButtonItem(title: "关闭") { (btn) in
      public func changeNavBackgroundImageWithAlpha(alpha: CGFloat,   backgroundColor: UIColor = .white, shadowColor: UIColor =  #colorLiteral(red: 0.9311618209, green: 0.9279686809, blue: 0.9307579994, alpha: 1))
 ```
 
-12. then
+## 18.then
 
 ```swift
      let label = UILabel().then {
