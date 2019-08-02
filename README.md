@@ -19,9 +19,11 @@
  *  UICollectionView
  *  UISearchBar
  *  Notification
- * UIViewController+NavigationBarItem 一行代码给导航栏添加barItem，新增渐变导航栏的透明度
+ * UIViewController+NavigationBarItem 
  * UIViewController+TopViewController 获得当前app最上层的viewController
  * Timer+Block 封装Timer block回调
+ * then
+ 
  **除添加系统所有属性外，几大重点关注点：**
 * **1、将UIVIew及其子类可直接通过点语法添加单击，双击，长按等手势，还有移除所有子类等常见操作方法。**
 * **2、将UIControl中事件加入链式语法**
@@ -30,6 +32,8 @@
 * **5、UITextView支持最大字数限制属性，支持设置placeholder属性**
 * **6、所有的NSObject对象支持一键添加通知，无需removeObserver。**
 * **7、集成Snapkit**
+*
+
 
 ### 1.Snapkit布局 --- Example
 
@@ -600,4 +604,26 @@ setRightButtonItem(title: "关闭") { (btn) in
     ///   - backgroundColor: 非透明时背景颜色
     ///   - shadowColor: 非透明是shadow阴影颜色
      public func changeNavBackgroundImageWithAlpha(alpha: CGFloat,   backgroundColor: UIColor = .white, shadowColor: UIColor =  #colorLiteral(red: 0.9311618209, green: 0.9279686809, blue: 0.9307579994, alpha: 1))
+```
+
+12. then
+
+```swift
+     let label = UILabel().then {
+       $0.textAlignment = .center
+       $0.textColor = UIColor.black
+       $0.text = "Hello, World!"
+     }
+     
+    UserDefaults.standard.do {
+       $0.set("devxoul", forKey: "username")
+       $0.set("devxoul@gmail.com", forKey: "email")
+       $0.synchronize()
+     }
+     
+    let frame = CGRect().with {
+       $0.origin.x = 10
+       $0.size.width = 100
+     }
+
 ```
